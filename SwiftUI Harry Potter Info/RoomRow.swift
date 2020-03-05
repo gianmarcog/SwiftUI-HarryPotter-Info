@@ -38,6 +38,6 @@ struct RoomRow: View {
 
 struct RoomRow_Previews: PreviewProvider {
     static var previews: some View {
-        RoomRow(categoryName: "HOT ROOMS", rooms: roomData)
+        RoomRow(categoryName: "Hogwarts", rooms: roomData)
     }
 }

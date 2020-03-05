@@ -16,7 +16,7 @@ struct Room: Hashable, Codable, Identifiable {
     var description: String
     
     enum Category: String, CaseIterable, Codable, Hashable {
-        case hot = "hot"
-        case cold = "cold"
+        case other = "Other Places in Hogwarts"
+        case houses = "Common rooms of the houses"
     }
 }
