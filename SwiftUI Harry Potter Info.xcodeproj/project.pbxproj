@@ -19,6 +19,7 @@
 		912358EB240FC31C00E93D4F /* RoomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912358EA240FC31C00E93D4F /* RoomItem.swift */; };
 		9194E227240FCEA100263783 /* rooms.json in Resources */ = {isa = PBXBuildFile; fileRef = 9194E226240FCEA100263783 /* rooms.json */; };
 		9194E22D2410802A00263783 /* RoomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194E22C2410802A00263783 /* RoomRow.swift */; };
+		9194E22F24110F3200263783 /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194E22E24110F3200263783 /* RoomDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		912358EA240FC31C00E93D4F /* RoomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItem.swift; sourceTree = "<group>"; };
 		9194E226240FCEA100263783 /* rooms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rooms.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		9194E22C2410802A00263783 /* RoomRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRow.swift; sourceTree = "<group>"; };
+		9194E22E24110F3200263783 /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				912358CA240FA95500E93D4F /* AppDelegate.swift */,
 				912358CC240FA95500E93D4F /* SceneDelegate.swift */,
 				912358CE240FA95500E93D4F /* ContentView.swift */,
+				9194E22E24110F3200263783 /* RoomDetail.swift */,
 				9194E22C2410802A00263783 /* RoomRow.swift */,
 				912358D0240FA95B00E93D4F /* Assets.xcassets */,
 				912358D5240FA95B00E93D4F /* LaunchScreen.storyboard */,
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9194E22F24110F3200263783 /* RoomDetail.swift in Sources */,
 				912358E3240FB51600E93D4F /* Room.swift in Sources */,
 				912358E5240FB8EE00E93D4F /* AboudCode.md in Sources */,
 				912358CB240FA95500E93D4F /* AppDelegate.swift in Sources */,
