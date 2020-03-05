@@ -1,31 +1,66 @@
 [
    {
       "id":1001,
-      "name":"Cappuccino1",
+      "name":"Dumbledores Office",
       "imageName":"DumbledoreOffice",
-      "description":"Cappuccino CBACappuccino",
-      "category":"hot"
+      "description":"This office is the office in Hogwarts Castle in which the current headmasters or headmistresses of Hogwarts School of Witchcraft and Wizardry work during the school year. It is located in the Headmaster's Tower, accessed through Gargoyle Corridor. Although this is never mentioned, it is entirely likely that the residence of the headmaster is adjacent to the office. It is reached by means of a circular, moving stone staircase, which in turn is concealed by a gargoyle on the third floor. The gargoyle will step aside in response to a password, though the headmaster is capable of overriding the password if, for any reason, he or she desires that it will not work.",
+      "category":"Other Places in Hogwarts"
    },
    {
       "id":1002,
-      "name":"Cappuccino2",
+      "name":"Goal classroom",
       "imageName":"Gaol",
-      "description":"Cappuccino CBACappuccino",
-      "category":"hot"
+      "description":"The office was a gloomy and dimly-lit room found in the school dungeons. The shadowy walls were lined with shelves of large glass jars filled with slimy, revolting things, such as bits of animals and plants, floating in potions of varying colours. Snape's collection grew over time - in 1994 Harry Potter noted there were more jars than in 1992, and by 1996, there were hundreds of them, even though Snape was no longer teaching the subject of potions. The office had a fireplace. In a corner, there was a cupboard containing Snape's private stock of Potions ingredients. In 1997, the office also contained a table, used for Harry's detention of sorting out records, but it is unknown if it had been there before.",
+      "category":"Other Places in Hogwarts"
    },
    {
       "id":1003,
-      "name":"Cappuccino3",
+      "name":"Hogwarts",
       "imageName":"Hogwarts",
-      "description":"Cappuccino CBACappuccino",
-      "category":"hot"
+      "description":"Hogwarts Castle is a large, seven-story high building supported by magic, with a hundred and forty two staircases throughout its many towers and turrets and very deep dungeons. The castle was built in the late Early Middle Ages (c. 993) by a wizard architect and the four most celebrated wizards of the age: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw and Salazar Slytherin. The castle is the main building of Hogwarts School of Witchcraft and Wizardry, regarded as the finest wizarding school in the world.Hogwarts is built in a valley area — surrounding mountains are part of the landscape — with the fairly large Great Lake to the south of the main building. The huge main oak front doors leading into the Entrance Hall face the west, and open up to sloping lawns. The deep Forbidden Forest extends around to the west of the castle. There are also exterior greenhouses and vegetable patches on the school grounds. Hogwarts is located in the Scottish Highlands, near the all-wizard village of Hogsmeade and not far from Dufftown, in Banffshire, and Achintee, in Lochaber.",
+      "category":"Other Places in Hogwarts"
    },
    {
       "id":1004,
-      "name":"IceLatte1",
+      "name":"The Hospital Wing",
       "imageName":"HospitalWing",
-      "description":"IceLatte CBAIceLatte",
-      "category":"cold"
+      "description":"The Hospital Wing is a part of Hogwarts School of Witchcraft and Wizardry. It was run by Madam Poppy Pomfrey, the school's matron, from at least 1971. The students and staff who suffer mishaps and injuries during the school year, are sent or brought to the hospital wing for treatment. Poppy would prefer there be six visitors at one time for one person. There is a room adjacent belonging to the matron.The hospital wing is well equipped to deal with all kinds of magical and mundane injuries, from broken limbs to regrowing lost bones. Only in the most severe cases are the patients sent to St Mungo's Hospital for Magical Maladies and Injuries for further treatment, such as when Katie Bell touched a cursed Opal Necklace in 1996.",
+      "category":"Other Places in Hogwarts"
+   },
+   {
+      "id":1005,
+      "name":"Hagrids House",
+      "imageName":"HagridHouse",
+      "description":"Professor Rubeus Hagrid was an English half-giant wizard, son of Mr Hagrid and the giantess Fridwulfa, and elder half-brother of the giant Grawp. Hagrid attended Hogwarts School of Witchcraft and Wizardry in 1940 and was sorted into Gryffindor house. In Hagrid's third year, he was framed by Tom Riddle for the crime of opening the Chamber of Secrets and using his pet Acromantula to attack several Muggle-born students and eventually killing one of them. Though Hagrid's wand was snapped and he was expelled, he was trained as gamekeeper of Hogwarts and allowed to live on the school grounds at the request of Albus Dumbledore.",
+      "category":"Other Places in Hogwarts"
+   },
+   {
+      "id":1006,
+      "name":"The Gryyfindor Common Room",
+      "imageName":"GryffindorCommonRoom",
+      "description":"Gryffindor Common Room serves as a Common room for Gryffindor House at Hogwarts School of Witchcraft and Wizardry. In general, it sports several shades of red and gold. The fireplace mantle is adorned with a portrait of a lion (associated with the house) and the room is described as being 'cosy'. The entrance to the Gryffindor common room is concealed under the portrait of the Fat Lady, on the lavish Gryffindor Landing. To enter one must present the Fat Lady with the correct password of the week. However, getting the password wrong means the student will have to wait the day for another student to come by and pass them the code. The common room is a circular room where Gryffindor students can relax after a long day of studying. It is full of squashy armchairs, tables, and a bulletin board where school notices, ads, lost posters, etc. can be posted. The common room is decorated in several shades of red, which is associated with the house. The common room is comfortable, but not more comfortable than the Hufflepuff basement.",
+      "category":"Common rooms of the houses"
+   },
+   {
+      "id":1007,
+      "name":"The Hufflepuff Common Room",
+      "imageName":"HufflepuffCommonRoom",
+      "description":"The Hufflepuff Basement serves as the Hufflepuff Common Room at Hogwarts School of Witchcraft and Wizardry. In general, it sports several motifs, such as circles, nature, copper and the colours yellow and black (all associated with the house). It also emphasises comfort, said to be the cosiest common room of them all. It is at one floor below the ground and is very sheltered from the elements, generally allowing students to sleep easier than those in the towers (like Gryffindor and Ravenclaw). The entrance to the common room is located in a nook on the right hand side of the kitchen corridor, concealed behind a stack of barrels. In order to reveal the entrance, no password is required. Instead, one must tap the barrel two from the bottom, middle of the second row, in the rhythm of ‘Helga Hufflepuff’, which will make the lid swing open, exposing a passageway that will lead to the basement when crawled through. However, if the wrong lid is tapped or the wrong rhythm is used, the intruder will be doused in vinegar and barred access.",
+      "category":"Common rooms of the houses"
+   },
+   {
+      "id":1008,
+      "name":"The Ravenclaw Common Room",
+      "imageName":"RavenclawCommonRoom",
+      "description":"The Ravenclaw Common Room is a Common Room for Ravenclaw House located in Ravenclaw Tower. In general, it sports several shades of blue with bronze (all associated with the house). It is also the airiest of the four common rooms. The entrance to the common room is located on the west side of Hogwarts at the top of a spiral staircase, presumably located on the fifth floor, and is a door without a doorknob or keyhole, but a bronze knocker in the shape of an eagle. In order to enter the room, a person must answer a riddle asked by the eagle knocker; if they answer incorrectly, they must wait for someone else who gets it right. The Ravenclaw Common Room is one of the airiest rooms at Hogwarts. It is a wide, circular room with graceful arched windows that punctuate the walls which were hung with blue and bronze silks and a midnight blue carpet covered in stars, which is reflected onto the domed ceiling. The room is furnished with blue tables, chairs, and a divan. Next to the door leading up to the dormitories stands a tall statue of Rowena Ravenclaw made of white marble.[1] According to Prefect Robert Hilliard, the sound of wind whistling around the windows of the tower is relaxing while going to sleep. Portraits of famous Ravenclaws hang on the walls.",
+      "category":"Common rooms of the houses"
+   },
+   {
+      "id":1009,
+      "name":"The Slytherin Common Room",
+      "imageName":"SlytherinCommonRoom",
+      "description":"The Slytherin Dungeon, also known as the Slytherin Common Room, serves as the common room for students in Slytherin house at Hogwarts School of Witchcraft and Wizardry. In general, it sports several shades of green and the mantle is adorned with a portrait of a serpent (all associated with the house). In Harry Potter's second year, he and Ron Weasley went into the Slytherin common room disguised as Vincent Crabbe and Gregory Goyle with the aid of Polyjuice Potion to attempt to discover the identity of the Heir of Slytherin. The entry password was Pure-blood when Draco Malfoy let them in. The Polyjuice Potion's wearing off prompted Harry and Ron to leave after staying nearly an hour, still not finding out the identity of the Heir of Slytherin, but they did learn that Malfoy was not the heir, as they originally thought.",
+      "category":"Common rooms of the houses"
    }
 ]
 
