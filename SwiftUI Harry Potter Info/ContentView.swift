@@ -21,12 +21,12 @@ struct ContentView: View {
         
         NavigationView{
             List(categories.keys.sorted(), id: \.self) {
-                    key in RoomRow (categoryName: "\(key) rooms", rooms: self.categories[key]!)
+                    key in RoomRow (categoryName: "\(key) ", rooms: self.categories[key]!)
                         .frame(height: 320)
                         .padding(.top)
                         .padding(.bottom)
             }
-            .navigationBarTitle(Text("Harry Potter Rooms"))
+            .navigationBarTitle(Text("Rooms"))
         }
         
     }
