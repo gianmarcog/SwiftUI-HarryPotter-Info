@@ -14,8 +14,11 @@
 		912358D4240FA95B00E93D4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912358D3240FA95B00E93D4F /* Preview Assets.xcassets */; };
 		912358D7240FA95B00E93D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912358D5240FA95B00E93D4F /* LaunchScreen.storyboard */; };
 		912358E1240FB46A00E93D4F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912358E0240FB46A00E93D4F /* Data.swift */; };
-		912358E3240FB51600E93D4F /* HP-Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912358E2240FB51600E93D4F /* HP-Info.swift */; };
+		912358E3240FB51600E93D4F /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912358E2240FB51600E93D4F /* Room.swift */; };
 		912358E5240FB8EE00E93D4F /* AboudCode.md in Sources */ = {isa = PBXBuildFile; fileRef = 912358E4240FB8EE00E93D4F /* AboudCode.md */; };
+		912358EB240FC31C00E93D4F /* RoomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912358EA240FC31C00E93D4F /* RoomItem.swift */; };
+		9194E227240FCEA100263783 /* rooms.json in Resources */ = {isa = PBXBuildFile; fileRef = 9194E226240FCEA100263783 /* rooms.json */; };
+		9194E22D2410802A00263783 /* RoomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194E22C2410802A00263783 /* RoomRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +30,12 @@
 		912358D3240FA95B00E93D4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		912358D6240FA95B00E93D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		912358D8240FA95B00E93D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		912358DF240FB3AE00E93D4F /* Directions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Directions.json; sourceTree = "<group>"; };
 		912358E0240FB46A00E93D4F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		912358E2240FB51600E93D4F /* HP-Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HP-Info.swift"; sourceTree = "<group>"; };
+		912358E2240FB51600E93D4F /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		912358E4240FB8EE00E93D4F /* AboudCode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AboudCode.md; sourceTree = "<group>"; };
+		912358EA240FC31C00E93D4F /* RoomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItem.swift; sourceTree = "<group>"; };
+		9194E226240FCEA100263783 /* rooms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rooms.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		9194E22C2410802A00263783 /* RoomRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,14 +71,16 @@
 				912358CA240FA95500E93D4F /* AppDelegate.swift */,
 				912358CC240FA95500E93D4F /* SceneDelegate.swift */,
 				912358CE240FA95500E93D4F /* ContentView.swift */,
+				9194E22C2410802A00263783 /* RoomRow.swift */,
 				912358D0240FA95B00E93D4F /* Assets.xcassets */,
 				912358D5240FA95B00E93D4F /* LaunchScreen.storyboard */,
 				912358D8240FA95B00E93D4F /* Info.plist */,
-				912358DF240FB3AE00E93D4F /* Directions.json */,
-				912358D2240FA95B00E93D4F /* Preview Content */,
 				912358E0240FB46A00E93D4F /* Data.swift */,
-				912358E2240FB51600E93D4F /* HP-Info.swift */,
+				912358E2240FB51600E93D4F /* Room.swift */,
+				912358EA240FC31C00E93D4F /* RoomItem.swift */,
+				912358D2240FA95B00E93D4F /* Preview Content */,
 				912358E4240FB8EE00E93D4F /* AboudCode.md */,
+				9194E226240FCEA100263783 /* rooms.json */,
 			);
 			path = "SwiftUI Harry Potter Info";
 			sourceTree = "<group>";
@@ -144,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9194E227240FCEA100263783 /* rooms.json in Resources */,
 				912358D7240FA95B00E93D4F /* LaunchScreen.storyboard in Resources */,
 				912358D4240FA95B00E93D4F /* Preview Assets.xcassets in Resources */,
 				912358D1240FA95B00E93D4F /* Assets.xcassets in Resources */,
@@ -157,10 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				912358E3240FB51600E93D4F /* HP-Info.swift in Sources */,
+				912358E3240FB51600E93D4F /* Room.swift in Sources */,
 				912358E5240FB8EE00E93D4F /* AboudCode.md in Sources */,
 				912358CB240FA95500E93D4F /* AppDelegate.swift in Sources */,
+				912358EB240FC31C00E93D4F /* RoomItem.swift in Sources */,
 				912358CD240FA95500E93D4F /* SceneDelegate.swift in Sources */,
+				9194E22D2410802A00263783 /* RoomRow.swift in Sources */,
 				912358CF240FA95500E93D4F /* ContentView.swift in Sources */,
 				912358E1240FB46A00E93D4F /* Data.swift in Sources */,
 			);
