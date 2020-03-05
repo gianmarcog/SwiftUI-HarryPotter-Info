@@ -19,12 +19,16 @@ struct RoomRow: View {
             Text(self.categoryName)
                 .font(.title)
             
-            ScrollView(showsIndicators: false){
+            ScrollView(.horizontal ,showsIndicators: false){
                 HStack(alignment: .top) {
                     ForEach(self.rooms, id: \.name) { room in
+                    
+                        NavigationLink(destination: RoomDetail(room:room))
+                        {
                         RoomItem(room: room)
                             .frame(width: 300)
                             .padding(.trailing, 30)
+                        }
                     }
                 }
             }
