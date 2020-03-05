@@ -1,0 +1,31 @@
+[
+   {
+      "id":1001,
+      "name":"Cappuccino1",
+      "imageName":"DumbledoreOffice",
+      "description":"Cappuccino CBACappuccino",
+      "category":"hot"
+   },
+   {
+      "id":1002,
+      "name":"Cappuccino2",
+      "imageName":"Gaol",
+      "description":"Cappuccino CBACappuccino",
+      "category":"hot"
+   },
+   {
+      "id":1003,
+      "name":"Cappuccino3",
+      "imageName":"Hogwarts",
+      "description":"Cappuccino CBACappuccino",
+      "category":"hot"
+   },
+   {
+      "id":1004,
+      "name":"IceLatte1",
+      "imageName":"HospitalWing",
+      "description":"IceLatte CBAIceLatte",
+      "category":"cold"
+   }
+]
+
