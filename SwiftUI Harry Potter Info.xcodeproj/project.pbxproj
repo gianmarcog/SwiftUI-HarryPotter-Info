@@ -70,20 +70,18 @@
 		912358C9240FA95500E93D4F /* SwiftUI Harry Potter Info */ = {
 			isa = PBXGroup;
 			children = (
-				912358CA240FA95500E93D4F /* AppDelegate.swift */,
-				912358CC240FA95500E93D4F /* SceneDelegate.swift */,
-				912358CE240FA95500E93D4F /* ContentView.swift */,
-				9194E22E24110F3200263783 /* RoomDetail.swift */,
-				9194E22C2410802A00263783 /* RoomRow.swift */,
+				91693C36241FC78B003B99A6 /* Delegate */,
+				91693C35241FC714003B99A6 /* Content */,
+				91693C2F241FC6BD003B99A6 /* RoomDetail */,
+				91693C30241FC6D5003B99A6 /* RoomRow */,
+				91693C31241FC6E1003B99A6 /* Data */,
+				91693C34241FC702003B99A6 /* RoomItem */,
+				91693C33241FC6FA003B99A6 /* Room */,
 				912358D0240FA95B00E93D4F /* Assets.xcassets */,
 				912358D5240FA95B00E93D4F /* LaunchScreen.storyboard */,
 				912358D8240FA95B00E93D4F /* Info.plist */,
-				912358E0240FB46A00E93D4F /* Data.swift */,
-				912358E2240FB51600E93D4F /* Room.swift */,
-				912358EA240FC31C00E93D4F /* RoomItem.swift */,
 				912358D2240FA95B00E93D4F /* Preview Content */,
 				912358E4240FB8EE00E93D4F /* AboudCode.md */,
-				9194E226240FCEA100263783 /* rooms.json */,
 			);
 			path = "SwiftUI Harry Potter Info";
 			sourceTree = "<group>";
@@ -94,6 +92,64 @@
 				912358D3240FA95B00E93D4F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91693C2F241FC6BD003B99A6 /* RoomDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9194E22E24110F3200263783 /* RoomDetail.swift */,
+			);
+			path = RoomDetail;
+			sourceTree = "<group>";
+		};
+		91693C30241FC6D5003B99A6 /* RoomRow */ = {
+			isa = PBXGroup;
+			children = (
+				9194E22C2410802A00263783 /* RoomRow.swift */,
+			);
+			path = RoomRow;
+			sourceTree = "<group>";
+		};
+		91693C31241FC6E1003B99A6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				912358E0240FB46A00E93D4F /* Data.swift */,
+				9194E226240FCEA100263783 /* rooms.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		91693C33241FC6FA003B99A6 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				912358E2240FB51600E93D4F /* Room.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		91693C34241FC702003B99A6 /* RoomItem */ = {
+			isa = PBXGroup;
+			children = (
+				912358EA240FC31C00E93D4F /* RoomItem.swift */,
+			);
+			path = RoomItem;
+			sourceTree = "<group>";
+		};
+		91693C35241FC714003B99A6 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				912358CE240FA95500E93D4F /* ContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		91693C36241FC78B003B99A6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				912358CA240FA95500E93D4F /* AppDelegate.swift */,
+				912358CC240FA95500E93D4F /* SceneDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
