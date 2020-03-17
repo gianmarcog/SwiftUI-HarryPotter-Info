@@ -19,7 +19,9 @@ struct ContentView: View {
     
     var body: some View {
         
+        //The NavigationView makes it able to handle the navigation between the categories in the List and the RoomDetail List
         NavigationView{
+            //List is gonna get sorted after the keys from the categories dictionary
             List(categories.keys.sorted(), id: \.self) {
                     key in RoomRow (categoryName: "\(key) ", rooms: self.categories[key]!)
                         .frame(height: 320)
@@ -28,7 +30,6 @@ struct ContentView: View {
             }
             .navigationBarTitle(Text("Rooms"))
         }
-        
     }
 }
 

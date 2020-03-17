@@ -12,6 +12,8 @@ struct RoomDetail: View {
     
     var room: Room
     var body: some View {
+       
+        //In this List is the layout for every single List item from the ContentView-List
         List {
             ZStack (alignment: .bottom) {
                 Image(room.imageName)
@@ -32,6 +34,7 @@ struct RoomDetail: View {
                     Spacer()
                 }
             }
+            //listRowInsets make the image over total screen size
             .listRowInsets(EdgeInsets())
             VStack(alignment: .leading){
                 Text(room.description)

@@ -23,6 +23,7 @@ struct RoomRow: View {
                 HStack(alignment: .top) {
                     ForEach(self.rooms, id: \.name) { room in
                     
+                        //The NavigationLink redirects to the next page
                         NavigationLink(destination: RoomDetail(room:room))
                         {
                         RoomItem(room: room)
